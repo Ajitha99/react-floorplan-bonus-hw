@@ -1,0 +1,19 @@
+.mainFloor{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.floorDiv{
+    padding: 10px;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    grid-template-rows: 1.5fr 1fr;
+    
+}
+h1{
+    text-align: center;
+}

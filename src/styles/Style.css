@@ -1,0 +1,59 @@
+
+.kitchenDiv{
+    display: grid;
+    grid-template-rows: 1fr 4.8fr;
+    background-color: rgba(241, 159, 7, 0.945); 
+
+}
+.kitProDiv{
+    align-items: center;
+    justify-content: center;  
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    height:30px;
+}
+.livingDiv{
+    background-color: burlywood;
+}
+.bedroomDiv{
+    
+    background-color: rgb(4, 117, 161);
+}
+.bathDiv{
+   
+    background-color: rgb(84, 107, 8);
+}
+.ovenDiv{
+  
+    background-color: rgb(236, 76, 28);
+}
+.sinkDiv{
+    background-color: rgb(158, 91, 4);
+}
+.rooms{
+    display: grid;
+    grid-template-rows: 2.2fr 1.2fr;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1.25fr .8fr;
+}
+.extRooms{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* #bed-1, #bath-full{
+    display: grid;
+    grid-template-rows: 2fr 1.2fr;
+}
+
+#bed-3, #bath-half{
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+}
+.livingDiv, .kitchen{
+    display: grid;
+    grid-template-columns: 1.25fr .7fr;
+} */
+
